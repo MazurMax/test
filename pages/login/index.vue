@@ -95,7 +95,6 @@ export default {
               this.error = err.response.data.error.message
             }
             this.loading = false
-            console.log('error', err.data.error.message)
           })
       })
     }
